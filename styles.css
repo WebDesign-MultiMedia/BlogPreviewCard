@@ -1,0 +1,196 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: var(--Yellow, #F4D04E);
+    }
+
+    .border-box{
+        background: var(--Pure-White, #FFF);
+        border-radius: 5%;
+        width: 80vw;
+        height: 30em;
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        border: 1px solid black;
+        box-shadow: 10px 10px 1px black;
+    }
+
+    #box-img{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: 1%;
+    }
+
+    svg{
+        border-radius: 8vw;
+        width: 90%;
+        border: 2px solid re;
+    }
+
+    #Rec-box{
+        background-color: var(--Yellow, #F4D04E);
+        width: 25%;
+        height: 6%;
+        border-radius: 10%;
+        position: relative;
+        left: 5%;
+        top: -10px;
+        text-align: center;
+    }
+
+    #Rec-box p{
+        color: black;
+        position: relative;
+        top: 10%;
+        font-weight: bolder;
+    }
+
+    #Published-date{
+        position: relative;
+        left: 5%;
+        top: -3%;
+    }
+
+    h2{
+        text-align: left;
+        position: relative;
+        top: -4%;
+        left: 4%;
+        font-size: 5.5vw;
+        font-weight:bolder;
+    }
+
+    h2:hover{
+        color: #F4D04E;
+    }
+    .border-box:hover{
+        box-shadow: 17px 14px 1px black;
+
+    }
+
+    #body_p{
+        color: #7f7f7f;
+        position: relative;
+        left: 6%;
+        top: -4%;
+        font-size: 1em;
+        width: 70vw;
+    }
+
+    #icon{
+        position: relative;
+        height: auto;
+        width: 13%;
+        left: 5%;
+    }
+
+    #fullName{
+        position: absolute;
+        left: 20%;
+        bottom: 9%;
+        font-weight: bolder;
+    }
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: var(--Yellow, #F4D04E);
+    }
+
+    .border-box{
+        background: var(--Pure-White, #FFF);
+        border-radius: 5%;
+        width: 30vw;
+        height: 45vw;
+        position: absolute;
+        left: 35%;
+        top: 5%;
+        border: 1px solid black;
+        box-shadow: 10px 10px 1px black;
+    }
+
+
+    svg{
+
+        position: relative;
+        border-radius: 10px;
+        background: var(--Yellow, #F4D04E);
+        top: 20px;
+        height: auto;
+        width: 90%;
+        left: 5%;
+    }
+
+    #Rec-box{
+        border-radius: 4px;
+        background: var(--Yellow, #F4D04E);
+        width: 20%;
+        height: 5%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+    }
+
+    #Rec-box p{
+        position: absolute;
+        font-size:1.2vw;
+        text-align: center;
+        left: 13%;
+        top: -40%;
+        font-weight: bolder;
+
+    }
+
+    #Published-date{
+        position: absolute;
+        padding-left: 5%;
+        padding-top: 7%;    
+        font-size: 1.5vw;    
+    }
+
+    h2{
+        position: absolute;
+        padding-top: 15%;
+        padding-left: 5%;
+        font-size: 2vw;
+    }
+
+    #body_p{
+        position: absolute;
+        padding-top: 28%;
+        padding-left: 5%;
+        font-size: 1.5vw;
+        width: 90%;
+        text-align: left;
+    }
+
+    #icon{
+        position: absolute;
+        padding-top:60%;
+        padding-left: 5%;
+        width: 15%;
+        height: auto;
+    }
+
+    #fullName{
+        position: absolute;
+        padding-top: 66%;
+        padding-left: 25%;
+        font-weight: bolder;
+        font-size: 1.2em;
+        left: 0;
+    }
+
+
+
+
+
+}
